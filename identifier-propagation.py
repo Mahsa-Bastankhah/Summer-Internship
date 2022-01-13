@@ -1,3 +1,8 @@
+#@author Mahsa Bastankhah
+'''
+This code propagates the transacion identifier in the lightning network and stops when a path is found
+the goal is to find the average number of involved nodes in the route discovery process
+'''
 import random
 import matplotlib.pyplot as plt
 import networkx as nx
